@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Data
+data/raw_cutoffs/
+raw_cutoffs/
+data/*.csv
+data/*.xlsx
+data/*.json
+*.sqlite
+*.db
+
+# Models and Artifacts
+model/artifacts/
+*.pkl
+
+# Test files
+test_api.json
+test_resp.txt
+
+# Node
+node_modules/
+
+# OS specific
+.DS_Store
+Thumbs.db
